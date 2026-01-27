@@ -7,9 +7,15 @@ score = 0
 for _ in range(5):
     a = random.randint(1, 10)
     b = random.randint(1, 10)
-    answer = a + b
+    operation = random.choice(["+", "*"])
 
-    user_input = int(input(f"What is {a} + {b}? "))
+    if operation == "+":
+        answer = a + b
+    else:
+        answer = a * b
+    
+    user_input = int(input(f"What is {a} {operation} {b}? "))
+
 
     if user_input == answer:
         print("Correct! ✅")
