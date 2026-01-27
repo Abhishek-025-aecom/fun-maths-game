@@ -1,2 +1,9 @@
-# fun-maths-game
-A beginner-friendly Python maths game to learn GitHub hands-on
+# Fun Maths Game 🎯
+
+This is a simple Python-based maths game.
+I am using this project to learn GitHub step by step.
+
+## Goals
+- Practice Python basics
+- Understand GitHub features
+- Build confidence with real projects
